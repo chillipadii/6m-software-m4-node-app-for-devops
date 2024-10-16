@@ -12,9 +12,9 @@ jobs:
           name: Heroku Container Push
           command: |
             heroku container:login
-            heroku stack:set container -a jonathan-su-devops
-            heroku container:push web -a jonathan-su-devops
-            heroku container:release web -a jonathan-su-devops
+            heroku stack:set container -a jasmine-su-devops
+            heroku container:push web -a jasmine-su-devops
+            heroku container:release web -a jasmine-su-devops
 
 workflows:
   simple_workflow:
